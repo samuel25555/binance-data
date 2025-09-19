@@ -3,7 +3,7 @@
     "type": "losers_ranking",
     "page": 1,
     "limit": 10,
-    "generated_at": "2025-09-19T08:17:19.557224+00:00",
+    "generated_at": "2025-09-19T08:32:18.607193+00:00",
     "total_symbols": 10,
     "source": "Binance Futures API",
     "note": "K线数据已临时移除以提高同步性能"
@@ -17,33 +17,33 @@
         "symbol": "UBUSDT",
         "base_asset": "UB",
         "quote_asset": "USDT",
-        "price": "0.02944",
-        "open_price": "0.042404",
+        "price": "0.030523",
+        "open_price": "0.042141",
         "high_price": "0.046408",
         "low_price": "0.029",
-        "prev_close_price": "0.042404",
+        "prev_close_price": "0.042141",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -30.573,
-          "absolute": "-30.573"
+          "percentage": -27.712,
+          "absolute": "-0.011678"
         },
         "volume_24h": {
-          "base_volume": "2689149186.0",
-          "quote_volume": "100074609.370039",
-          "count": 1751711
+          "base_volume": "2682815582.0",
+          "quote_volume": "99193150.137223",
+          "count": 1723359
         },
         "funding_rate": "0.00005",
         "next_funding_time": "2025-09-19 12:00:00+00:00",
-        "open_interest": "0.0",
-        "mark_price": "0.02944284",
+        "open_interest": "1723359.0",
+        "mark_price": "0.03045994",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:15:15.981000+00:00"
+        "bid_qty": "347.0",
+        "ask_qty": "958.0",
+        "timestamp": "2025-09-19 08:32:14.127000+00:00"
       }
     },
     {
@@ -54,33 +54,33 @@
         "symbol": "AIAUSDT",
         "base_asset": "AIA",
         "quote_asset": "USDT",
-        "price": "0.40671",
-        "open_price": "0.54703",
+        "price": "0.40383",
+        "open_price": "0.5363",
         "high_price": "0.59677",
         "low_price": "0.355",
-        "prev_close_price": "0.54703",
+        "prev_close_price": "0.5363",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -25.651,
-          "absolute": "-25.651"
+          "percentage": -24.686,
+          "absolute": "-0.13239"
         },
         "volume_24h": {
-          "base_volume": "880018681.0",
-          "quote_volume": "368894794.41138",
-          "count": 9021452
+          "base_volume": "882674993.0",
+          "quote_volume": "369437156.90449",
+          "count": 9054390
         },
-        "funding_rate": "0.0",
-        "next_funding_time": null,
-        "open_interest": "0.0",
-        "mark_price": "0.0",
+        "funding_rate": "0.0006362",
+        "next_funding_time": "2025-09-19 12:00:00+00:00",
+        "open_interest": "9054390.0",
+        "mark_price": "0.40344219",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:54.106000+00:00"
+        "bid_qty": "247.0",
+        "ask_qty": "720.0",
+        "timestamp": "2025-09-19 08:32:14.127000+00:00"
       }
     },
     {
@@ -91,44 +91,81 @@
         "symbol": "MYXUSDT",
         "base_asset": "MYX",
         "quote_asset": "USDT",
-        "price": "13.125",
-        "open_price": "17.15",
-        "high_price": "17.47",
+        "price": "12.952",
+        "open_price": "17.156",
+        "high_price": "17.179",
         "low_price": "12.865",
-        "prev_close_price": "17.15",
+        "prev_close_price": "17.156",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -23.469,
-          "absolute": "-23.469"
+          "percentage": -24.505,
+          "absolute": "-4.204"
         },
         "volume_24h": {
-          "base_volume": "28605079.0",
-          "quote_volume": "430056263.3786",
-          "count": 1911726
+          "base_volume": "28298879.0",
+          "quote_volume": "423644791.5661",
+          "count": 1891171
         },
-        "funding_rate": "0.0",
-        "next_funding_time": null,
-        "open_interest": "0.0",
-        "mark_price": "0.0",
+        "funding_rate": "0.0000125",
+        "next_funding_time": "2025-09-19 09:00:00+00:00",
+        "open_interest": "1891171.0",
+        "mark_price": "12.94853314",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:46.233000+00:00"
+        "bid_qty": "22.0",
+        "ask_qty": "186.0",
+        "timestamp": "2025-09-19 08:32:14.126000+00:00"
       }
     },
     {
       "page_rank": 4,
       "global_rank": 4,
+      "symbol": "TSTUSDT",
+      "market_data": {
+        "symbol": "TSTUSDT",
+        "base_asset": "TST",
+        "quote_asset": "USDT",
+        "price": "0.04532",
+        "open_price": "0.05973",
+        "high_price": "0.06244",
+        "low_price": "0.04471",
+        "prev_close_price": "0.05973",
+        "change_1h": null,
+        "change_4h": null,
+        "change_12h": null,
+        "change_24h": {
+          "percentage": -24.125,
+          "absolute": "-0.01441"
+        },
+        "volume_24h": {
+          "base_volume": "4592287212.0",
+          "quote_volume": "237951251.45676",
+          "count": 1937285
+        },
+        "funding_rate": "0.00005",
+        "next_funding_time": "2025-09-19 12:00:00+00:00",
+        "open_interest": "1937285.0",
+        "mark_price": "0.04532",
+        "index_price": null,
+        "best_bid_price": null,
+        "best_ask_price": null,
+        "bid_qty": "1184.0",
+        "ask_qty": "16428.0",
+        "timestamp": "2025-09-19 08:32:14.125000+00:00"
+      }
+    },
+    {
+      "page_rank": 5,
+      "global_rank": 5,
       "symbol": "BARDUSDT",
       "market_data": {
         "symbol": "BARDUSDT",
         "base_asset": "BARD",
         "quote_asset": "USDT",
-        "price": "0.9226",
+        "price": "0.9252",
         "open_price": "1.1946",
         "high_price": "1.2383",
         "low_price": "0.902",
@@ -137,61 +174,24 @@
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -22.769,
-          "absolute": "-22.769"
+          "percentage": -22.543,
+          "absolute": "-0.2693"
         },
         "volume_24h": {
-          "base_volume": "1055913035.0",
-          "quote_volume": "1109152518.4751",
-          "count": 18255228
+          "base_volume": "1063613532.0",
+          "quote_volume": "1116251635.9881",
+          "count": 18334026
         },
-        "funding_rate": "0.0",
-        "next_funding_time": null,
-        "open_interest": "0.0",
-        "mark_price": "0.0",
-        "index_price": null,
-        "best_bid_price": null,
-        "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:50.819000+00:00"
-      }
-    },
-    {
-      "page_rank": 5,
-      "global_rank": 5,
-      "symbol": "VELVETUSDT",
-      "market_data": {
-        "symbol": "VELVETUSDT",
-        "base_asset": "VELVET",
-        "quote_asset": "USDT",
-        "price": "0.17309",
-        "open_price": "0.21775",
-        "high_price": "0.221",
-        "low_price": "0.17206",
-        "prev_close_price": "0.21775",
-        "change_1h": null,
-        "change_4h": null,
-        "change_12h": null,
-        "change_24h": {
-          "percentage": -20.51,
-          "absolute": "-20.51"
-        },
-        "volume_24h": {
-          "base_volume": "68965158.0",
-          "quote_volume": "13371390.26025",
-          "count": 217666
-        },
-        "funding_rate": "0.00027901",
+        "funding_rate": "-0.00235433",
         "next_funding_time": "2025-09-19 12:00:00+00:00",
-        "open_interest": "0.0",
-        "mark_price": "0.17309",
+        "open_interest": "18334026.0",
+        "mark_price": "0.92552596",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:09:14.313000+00:00"
+        "bid_qty": "113.0",
+        "ask_qty": "3404.0",
+        "timestamp": "2025-09-19 08:32:14.127000+00:00"
       }
     },
     {
@@ -202,107 +202,107 @@
         "symbol": "HIFIUSDT",
         "base_asset": "HIFI",
         "quote_asset": "USDT",
-        "price": "0.1535",
-        "open_price": "0.1923",
+        "price": "0.15386",
+        "open_price": "0.19151",
         "high_price": "0.209",
         "low_price": "0.151",
-        "prev_close_price": "0.1923",
+        "prev_close_price": "0.19151",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -20.177,
-          "absolute": "-20.177"
+          "percentage": -19.633,
+          "absolute": "-0.0376"
         },
         "volume_24h": {
-          "base_volume": "1505640021.0",
-          "quote_volume": "277715270.74955",
-          "count": 3035769
+          "base_volume": "1490127748.0",
+          "quote_volume": "274228143.16022",
+          "count": 3006476
         },
-        "funding_rate": "0.00009138",
+        "funding_rate": "0.00005786",
         "next_funding_time": "2025-09-19 12:00:00+00:00",
-        "open_interest": "0.0",
-        "mark_price": "0.15366769",
+        "open_interest": "3006476.0",
+        "mark_price": "0.15386852",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:55.435000+00:00"
+        "bid_qty": "378.0",
+        "ask_qty": "108.0",
+        "timestamp": "2025-09-19 08:32:14.126000+00:00"
       }
     },
     {
       "page_rank": 7,
       "global_rank": 7,
-      "symbol": "TSTUSDT",
+      "symbol": "VELVETUSDT",
       "market_data": {
-        "symbol": "TSTUSDT",
-        "base_asset": "TST",
+        "symbol": "VELVETUSDT",
+        "base_asset": "VELVET",
         "quote_asset": "USDT",
-        "price": "0.0454",
-        "open_price": "0.05604",
-        "high_price": "0.06244",
-        "low_price": "0.04471",
-        "prev_close_price": "0.05604",
+        "price": "0.17593",
+        "open_price": "0.21631",
+        "high_price": "0.21665",
+        "low_price": "0.17206",
+        "prev_close_price": "0.21631",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -18.986,
-          "absolute": "-18.986"
+          "percentage": -18.723,
+          "absolute": "-0.0405"
         },
         "volume_24h": {
-          "base_volume": "4859444976.0",
-          "quote_volume": "253919360.43795",
-          "count": 2088510
+          "base_volume": "65584909.0",
+          "quote_volume": "12605508.33756",
+          "count": 208901
         },
-        "funding_rate": "0.00005",
+        "funding_rate": "0.00030303",
         "next_funding_time": "2025-09-19 12:00:00+00:00",
-        "open_interest": "0.0",
-        "mark_price": "0.04539",
+        "open_interest": "208901.0",
+        "mark_price": "0.17588",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:00.197000+00:00"
+        "bid_qty": "9.0",
+        "ask_qty": "167.0",
+        "timestamp": "2025-09-19 08:32:14.128000+00:00"
       }
     },
     {
       "page_rank": 8,
       "global_rank": 8,
-      "symbol": "PUMPBTCUSDT",
+      "symbol": "AIOUSDT",
       "market_data": {
-        "symbol": "PUMPBTCUSDT",
-        "base_asset": "PUMPBTC",
+        "symbol": "AIOUSDT",
+        "base_asset": "AIO",
         "quote_asset": "USDT",
-        "price": "0.09376",
-        "open_price": "0.11087",
-        "high_price": "0.11228",
-        "low_price": "0.0915",
-        "prev_close_price": "0.11087",
+        "price": "0.16329",
+        "open_price": "0.19121",
+        "high_price": "0.21",
+        "low_price": "0.16006",
+        "prev_close_price": "0.19121",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -15.432,
-          "absolute": "-15.432"
+          "percentage": -14.565,
+          "absolute": "-0.02785"
         },
         "volume_24h": {
-          "base_volume": "165403859.0",
-          "quote_volume": "16379343.02129",
-          "count": 238134
+          "base_volume": "245395185.0",
+          "quote_volume": "46407300.66726",
+          "count": 652471
         },
-        "funding_rate": "0.00025016",
+        "funding_rate": "0.00015662",
         "next_funding_time": "2025-09-19 12:00:00+00:00",
-        "open_interest": "0.0",
-        "mark_price": "0.09367236",
+        "open_interest": "652471.0",
+        "mark_price": "0.16329",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:15:09.636000+00:00"
+        "bid_qty": "268.0",
+        "ask_qty": "256.0",
+        "timestamp": "2025-09-19 08:32:14.126000+00:00"
       }
     },
     {
@@ -313,70 +313,70 @@
         "symbol": "ALPHAUSDT",
         "base_asset": "ALPHA",
         "quote_asset": "USDT",
-        "price": "0.01976",
-        "open_price": "0.023",
+        "price": "0.01963",
+        "open_price": "0.02274",
         "high_price": "0.02346",
         "low_price": "0.01934",
-        "prev_close_price": "0.023",
+        "prev_close_price": "0.02274",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -14.087,
-          "absolute": "-14.087"
+          "percentage": -13.676,
+          "absolute": "-0.00311"
         },
         "volume_24h": {
-          "base_volume": "1590545156.0",
-          "quote_volume": "33949263.51463",
-          "count": 311498
+          "base_volume": "1534694093.0",
+          "quote_volume": "32635435.564",
+          "count": 298628
         },
-        "funding_rate": "0.00072748",
+        "funding_rate": "0.00073007",
         "next_funding_time": "2025-09-19 16:00:00+00:00",
-        "open_interest": "0.0",
-        "mark_price": "0.0197463",
+        "open_interest": "298628.0",
+        "mark_price": "0.01961896",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:48.130000+00:00"
+        "bid_qty": "17070.0",
+        "ask_qty": "11566.0",
+        "timestamp": "2025-09-19 08:32:14.126000+00:00"
       }
     },
     {
       "page_rank": 10,
       "global_rank": 10,
-      "symbol": "AIOUSDT",
+      "symbol": "PUMPBTCUSDT",
       "market_data": {
-        "symbol": "AIOUSDT",
-        "base_asset": "AIO",
+        "symbol": "PUMPBTCUSDT",
+        "base_asset": "PUMPBTC",
         "quote_asset": "USDT",
-        "price": "0.16382",
-        "open_price": "0.18955",
-        "high_price": "0.21",
-        "low_price": "0.16006",
-        "prev_close_price": "0.18955",
+        "price": "0.09411",
+        "open_price": "0.10754",
+        "high_price": "0.10832",
+        "low_price": "0.0915",
+        "prev_close_price": "0.10754",
         "change_1h": null,
         "change_4h": null,
         "change_12h": null,
         "change_24h": {
-          "percentage": -13.574,
-          "absolute": "-13.574"
+          "percentage": -12.479,
+          "absolute": "-0.01342"
         },
         "volume_24h": {
-          "base_volume": "250051452.0",
-          "quote_volume": "47313432.6199",
-          "count": 663820
+          "base_volume": "152313666.0",
+          "quote_volume": "14949968.10693",
+          "count": 221895
         },
-        "funding_rate": "0.0",
-        "next_funding_time": null,
-        "open_interest": "0.0",
-        "mark_price": "0.0",
+        "funding_rate": "0.00028135",
+        "next_funding_time": "2025-09-19 12:00:00+00:00",
+        "open_interest": "221895.0",
+        "mark_price": "0.09409527",
         "index_price": null,
         "best_bid_price": null,
         "best_ask_price": null,
-        "bid_qty": "0.0",
-        "ask_qty": "0.0",
-        "timestamp": "2025-09-19 08:16:54.048000+00:00"
+        "bid_qty": "105.0",
+        "ask_qty": "336.0",
+        "timestamp": "2025-09-19 08:32:14.127000+00:00"
       }
     }
   ]
