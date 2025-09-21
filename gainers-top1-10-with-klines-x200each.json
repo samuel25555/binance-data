@@ -3,7 +3,7 @@
     "type": "gainers_ranking_with_klines",
     "page": 1,
     "limit": 10,
-    "generated_at": "2025-09-21T00:17:01.218570+00:00",
+    "generated_at": "2025-09-21T00:32:00.449871+00:00",
     "total_symbols": 10,
     "source": "Binance Futures API",
     "description": "Gainers排行榜第1页（含15m/1h/4h K线数据，每个周期200根）",
@@ -23,29 +23,29 @@
         "symbol": "ASTERUSDT",
         "base_asset": "ASTER",
         "quote_asset": "USDT",
-        "price": 1.7044,
+        "price": 1.7219,
         "high_price": 1.7914,
         "low_price": 0.855,
         "volume_24h": {
-          "base_volume": 2362767167.0,
-          "quote_volume": 3123481343.5346,
-          "count": 19086587
+          "base_volume": 2374917473.0,
+          "quote_volume": 3152680009.8914,
+          "count": 19145224
         },
         "change_24h": {
-          "absolute": 0.7847,
-          "percentage": 85.321
+          "absolute": 0.8011,
+          "percentage": 87.0
         },
-        "open_price": 0.9197,
-        "prev_close_price": 0.9197,
-        "bid_price": 1.7046,
-        "ask_price": 1.7051,
-        "bid_qty": 355.0,
-        "ask_qty": 291.0,
-        "mark_price": 1.70002231,
-        "funding_rate": 0.00176101,
+        "open_price": 0.9208,
+        "prev_close_price": 0.9208,
+        "bid_price": 1.7172,
+        "ask_price": 1.7173,
+        "bid_qty": 143.0,
+        "ask_qty": 300.0,
+        "mark_price": 1.7224987,
+        "funding_rate": 0.00161855,
         "next_funding_time": 1758427200000,
-        "open_interest": 19086587.0,
-        "timestamp": 1758413820898,
+        "open_interest": 19145224.0,
+        "timestamp": 1758414720172,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -53,7 +53,7 @@
       "klines": {
         "15m": {
           "interval": "15m",
-          "count": 146,
+          "count": 147,
           "data": [
             {
               "open_time": 1758283200000,
@@ -1653,13 +1653,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 1.7291,
-              "high_price": 1.7301,
-              "low_price": 1.6939,
-              "close_price": 1.7058,
-              "volume": 2671042.0,
+              "high_price": 1.75,
+              "low_price": 1.659,
+              "close_price": 1.7432,
+              "volume": 21222224.0,
               "close_time": 1758414599999,
-              "quote_volume": 4561206.7151,
-              "trades_count": 24588
+              "quote_volume": 36306584.3198,
+              "trades_count": 172318
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 1.7432,
+              "high_price": 1.75,
+              "low_price": 1.7197,
+              "close_price": 1.7231,
+              "volume": 4127642.0,
+              "close_time": 1758415499999,
+              "quote_volume": 7179720.9886,
+              "trades_count": 26282
             }
           ]
         },
@@ -2066,13 +2077,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 1.6607,
-              "high_price": 1.7441,
+              "high_price": 1.75,
               "low_price": 1.6583,
-              "close_price": 1.7058,
-              "volume": 24894363.0,
+              "close_price": 1.723,
+              "volume": 47564608.0,
               "close_time": 1758416399999,
-              "quote_volume": 42424774.8818,
-              "trades_count": 228518
+              "quote_volume": 81335091.5646,
+              "trades_count": 402469
             }
           ]
         },
@@ -2182,13 +2193,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 1.6607,
-              "high_price": 1.7441,
+              "high_price": 1.75,
               "low_price": 1.6583,
-              "close_price": 1.7057,
-              "volume": 24918500.0,
+              "close_price": 1.7156,
+              "volume": 47827802.0,
               "close_time": 1758427199999,
-              "quote_volume": 42465932.6868,
-              "trades_count": 228849
+              "quote_volume": 81787338.0772,
+              "trades_count": 403567
             }
           ]
         }
@@ -2202,49 +2213,38 @@
         "symbol": "STBLUSDT",
         "base_asset": "STBL",
         "quote_asset": "USDT",
-        "price": 0.41893,
+        "price": 0.41975,
         "high_price": 0.48584,
-        "low_price": 0.23278,
+        "low_price": 0.24711,
         "volume_24h": {
-          "base_volume": 3654840681.0,
-          "quote_volume": 1291103122.30325,
-          "count": 11112233
+          "base_volume": 3637202870.0,
+          "quote_volume": 1290750046.16819,
+          "count": 11141726
         },
         "change_24h": {
-          "absolute": 0.18292,
-          "percentage": 77.578
+          "absolute": 0.16758,
+          "percentage": 66.405
         },
-        "open_price": 0.23579,
-        "prev_close_price": 0.23579,
-        "bid_price": 0.42005,
-        "ask_price": 0.42006,
-        "bid_qty": 346.0,
-        "ask_qty": 186.0,
-        "mark_price": 0.41895568,
-        "funding_rate": 0.00110975,
+        "open_price": 0.25236,
+        "prev_close_price": 0.25236,
+        "bid_price": 0.42019,
+        "ask_price": 0.4203,
+        "bid_qty": 679.0,
+        "ask_qty": 375.0,
+        "mark_price": 0.41891986,
+        "funding_rate": 0.00099787,
         "next_funding_time": 1758427200000,
-        "open_interest": 11112233.0,
-        "timestamp": 1758413820897,
-        "market_cap": null,
-        "circulating_supply": null,
-        "market_cap_rank": null
+        "open_interest": 11141726.0,
+        "timestamp": 1758414720169,
+        "market_cap": 210358321.0,
+        "circulating_supply": 500000000.0,
+        "market_cap_rank": 335
       },
       "klines": {
         "15m": {
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.2204,
-              "high_price": 0.227,
-              "low_price": 0.21307,
-              "close_price": 0.21393,
-              "volume": 43749140.0,
-              "close_time": 1758235499999,
-              "quote_volume": 9639514.53431,
-              "trades_count": 94394
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.21396,
@@ -4426,13 +4426,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.40768,
-              "high_price": 0.42113,
+              "high_price": 0.428,
               "low_price": 0.40742,
-              "close_price": 0.41938,
-              "volume": 5162242.0,
+              "close_price": 0.42341,
+              "volume": 24411701.0,
               "close_time": 1758414599999,
-              "quote_volume": 2149971.42471,
-              "trades_count": 20806
+              "quote_volume": 10305086.50463,
+              "trades_count": 108947
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.42329,
+              "high_price": 0.426,
+              "low_price": 0.41684,
+              "close_price": 0.42023,
+              "volume": 2534076.0,
+              "close_time": 1758415499999,
+              "quote_volume": 1069002.7685,
+              "trades_count": 11990
             }
           ]
         },
@@ -5444,13 +5455,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.4096,
-              "high_price": 0.42113,
+              "high_price": 0.428,
               "low_price": 0.3898,
-              "close_price": 0.41947,
-              "volume": 27722492.0,
+              "close_price": 0.42023,
+              "volume": 49486019.0,
               "close_time": 1758416399999,
-              "quote_volume": 11248383.85589,
-              "trades_count": 121075
+              "quote_volume": 20464116.41006,
+              "trades_count": 221025
             }
           ]
         },
@@ -5714,13 +5725,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.4096,
-              "high_price": 0.42113,
+              "high_price": 0.428,
               "low_price": 0.3898,
-              "close_price": 0.41938,
-              "volume": 27702484.0,
+              "close_price": 0.42009,
+              "volume": 49531175.0,
               "close_time": 1758427199999,
-              "quote_volume": 11239998.56164,
-              "trades_count": 120894
+              "quote_volume": 20483091.18651,
+              "trades_count": 221208
             }
           ]
         }
@@ -5734,29 +5745,29 @@
         "symbol": "LISTAUSDT",
         "base_asset": "LISTA",
         "quote_asset": "USDT",
-        "price": 0.3953,
+        "price": 0.3965,
         "high_price": 0.4456,
         "low_price": 0.2671,
         "volume_24h": {
-          "base_volume": 475456659.0,
-          "quote_volume": 172566541.1077,
-          "count": 1406614
+          "base_volume": 485819578.0,
+          "quote_volume": 176740847.3452,
+          "count": 1441661
         },
         "change_24h": {
-          "absolute": 0.1248,
-          "percentage": 46.171
+          "absolute": 0.1275,
+          "percentage": 47.415
         },
-        "open_price": 0.2703,
-        "prev_close_price": 0.2703,
-        "bid_price": 0.3954,
-        "ask_price": 0.3956,
-        "bid_qty": 1006.0,
-        "ask_qty": 170.0,
-        "mark_price": 0.3955144,
+        "open_price": 0.2689,
+        "prev_close_price": 0.2689,
+        "bid_price": 0.396,
+        "ask_price": 0.3961,
+        "bid_qty": 123.0,
+        "ask_qty": 1511.0,
+        "mark_price": 0.3960108,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 1406614.0,
-        "timestamp": 1758413820900,
+        "open_interest": 1441661.0,
+        "timestamp": 1758414720170,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -5766,17 +5777,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.2817,
-              "high_price": 0.2823,
-              "low_price": 0.2811,
-              "close_price": 0.2814,
-              "volume": 137532.0,
-              "close_time": 1758235499999,
-              "quote_volume": 38773.0964,
-              "trades_count": 593
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.2814,
@@ -7958,13 +7958,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.3939,
-              "high_price": 0.3966,
-              "low_price": 0.3932,
-              "close_price": 0.3955,
-              "volume": 1286949.0,
+              "high_price": 0.3973,
+              "low_price": 0.3876,
+              "close_price": 0.3935,
+              "volume": 10637833.0,
               "close_time": 1758414599999,
-              "quote_volume": 508081.4146,
-              "trades_count": 4529
+              "quote_volume": 4172682.3993,
+              "trades_count": 36855
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.3935,
+              "high_price": 0.3996,
+              "low_price": 0.3935,
+              "close_price": 0.396,
+              "volume": 1823059.0,
+              "close_time": 1758415499999,
+              "quote_volume": 724283.3451,
+              "trades_count": 5437
             }
           ]
         },
@@ -10165,12 +10176,12 @@
               "open_time": 1758412800000,
               "open_price": 0.4005,
               "high_price": 0.4106,
-              "low_price": 0.3909,
-              "close_price": 0.3956,
-              "volume": 18936314.0,
+              "low_price": 0.3876,
+              "close_price": 0.396,
+              "volume": 30113935.0,
               "close_time": 1758416399999,
-              "quote_volume": 7534725.2944,
-              "trades_count": 58596
+              "quote_volume": 11925064.598,
+              "trades_count": 96401
             }
           ]
         },
@@ -12371,12 +12382,12 @@
               "open_time": 1758412800000,
               "open_price": 0.4005,
               "high_price": 0.4106,
-              "low_price": 0.3909,
-              "close_price": 0.3961,
-              "volume": 19036838.0,
+              "low_price": 0.3876,
+              "close_price": 0.396,
+              "volume": 30112567.0,
               "close_time": 1758427199999,
-              "quote_volume": 7574517.7457,
-              "trades_count": 58805
+              "quote_volume": 11924522.91,
+              "trades_count": 96382
             }
           ]
         }
@@ -12390,29 +12401,29 @@
         "symbol": "AVNTUSDT",
         "base_asset": "AVNT",
         "quote_asset": "USDT",
-        "price": 1.567,
-        "high_price": 1.585,
+        "price": 1.5978,
+        "high_price": 1.617,
         "low_price": 1.05041,
         "volume_24h": {
-          "base_volume": 905198390.0,
-          "quote_volume": 1222428795.98239,
-          "count": 5956500
+          "base_volume": 916664658.0,
+          "quote_volume": 1244626063.73758,
+          "count": 6041426
         },
         "change_24h": {
-          "absolute": 0.4334,
-          "percentage": 38.232
+          "absolute": 0.4969,
+          "percentage": 45.054
         },
-        "open_price": 1.1336,
-        "prev_close_price": 1.1336,
-        "bid_price": 1.5636,
-        "ask_price": 1.5637,
-        "bid_qty": 293.0,
-        "ask_qty": 164.0,
-        "mark_price": 1.5631,
+        "open_price": 1.1029,
+        "prev_close_price": 1.1029,
+        "bid_price": 1.6005,
+        "ask_price": 1.6009,
+        "bid_qty": 420.0,
+        "ask_qty": 384.0,
+        "mark_price": 1.60006613,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 5956500.0,
-        "timestamp": 1758413820898,
+        "open_interest": 6041426.0,
+        "timestamp": 1758414720171,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -12422,17 +12433,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 1.1331,
-              "high_price": 1.15,
-              "low_price": 1.13296,
-              "close_price": 1.13888,
-              "volume": 7925462.0,
-              "close_time": 1758235499999,
-              "quote_volume": 9056062.39535,
-              "trades_count": 131302
-            },
             {
               "open_time": 1758235500000,
               "open_price": 1.13888,
@@ -14614,13 +14614,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 1.572,
-              "high_price": 1.585,
-              "low_price": 1.5604,
-              "close_price": 1.5609,
-              "volume": 3856598.0,
+              "high_price": 1.591,
+              "low_price": 1.5362,
+              "close_price": 1.5589,
+              "volume": 18640051.0,
               "close_time": 1758414599999,
-              "quote_volume": 6064527.60138,
-              "trades_count": 23982
+              "quote_volume": 29150376.39045,
+              "trades_count": 127915
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 1.5598,
+              "high_price": 1.617,
+              "low_price": 1.5505,
+              "close_price": 1.5998,
+              "volume": 5751669.0,
+              "close_time": 1758415499999,
+              "quote_volume": 9133314.656,
+              "trades_count": 35684
             }
           ]
         },
@@ -16820,13 +16831,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 1.4717,
-              "high_price": 1.585,
+              "high_price": 1.617,
               "low_price": 1.455,
-              "close_price": 1.5623,
-              "volume": 35689720.0,
+              "close_price": 1.6015,
+              "volume": 56262040.0,
               "close_time": 1758416399999,
-              "quote_volume": 54558892.18326,
-              "trades_count": 203240
+              "quote_volume": 86836791.97089,
+              "trades_count": 343221
             }
           ]
         },
@@ -17596,13 +17607,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 1.4717,
-              "high_price": 1.585,
+              "high_price": 1.617,
               "low_price": 1.455,
-              "close_price": 1.5609,
-              "volume": 35710390.0,
+              "close_price": 1.6005,
+              "volume": 56251897.0,
               "close_time": 1758427199999,
-              "quote_volume": 54591166.63072,
-              "trades_count": 203459
+              "quote_volume": 86820548.28969,
+              "trades_count": 343138
             }
           ]
         }
@@ -17616,29 +17627,29 @@
         "symbol": "SUNUSDT",
         "base_asset": "SUN",
         "quote_asset": "USDT",
-        "price": 0.032092,
+        "price": 0.03171,
         "high_price": 0.03862,
         "low_price": 0.023745,
         "volume_24h": {
-          "base_volume": 22218540026.0,
-          "quote_volume": 728944447.843257,
-          "count": 5284472
+          "base_volume": 22310793619.0,
+          "quote_volume": 731928631.58799,
+          "count": 5306099
         },
         "change_24h": {
-          "absolute": 0.008051,
-          "percentage": 33.493
+          "absolute": 0.007741,
+          "percentage": 32.296
         },
-        "open_price": 0.024038,
-        "prev_close_price": 0.024038,
-        "bid_price": 0.032076,
-        "ask_price": 0.032082,
-        "bid_qty": 3952.0,
-        "ask_qty": 31204.0,
-        "mark_price": 0.0320827,
+        "open_price": 0.023969,
+        "prev_close_price": 0.023969,
+        "bid_price": 0.031723,
+        "ask_price": 0.031728,
+        "bid_qty": 166.0,
+        "ask_qty": 9757.0,
+        "mark_price": 0.03172243,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 5284472.0,
-        "timestamp": 1758413820900,
+        "open_interest": 5306099.0,
+        "timestamp": 1758414720169,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -17648,17 +17659,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.024705,
-              "high_price": 0.024755,
-              "low_price": 0.024597,
-              "close_price": 0.02467,
-              "volume": 12444467.0,
-              "close_time": 1758235499999,
-              "quote_volume": 307116.369413,
-              "trades_count": 4805
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.024671,
@@ -19840,13 +19840,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.032134,
-              "high_price": 0.032162,
-              "low_price": 0.032019,
-              "close_price": 0.0321,
-              "volume": 4873223.0,
+              "high_price": 0.032398,
+              "low_price": 0.031888,
+              "close_price": 0.031988,
+              "volume": 53734428.0,
               "close_time": 1758414599999,
-              "quote_volume": 156332.376373,
-              "trades_count": 1701
+              "quote_volume": 1725846.18432,
+              "trades_count": 15635
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.031992,
+              "high_price": 0.032022,
+              "low_price": 0.031385,
+              "close_price": 0.031729,
+              "volume": 48741310.0,
+              "close_time": 1758415499999,
+              "quote_volume": 1543207.199288,
+              "trades_count": 9471
             }
           ]
         },
@@ -22047,12 +22058,12 @@
               "open_time": 1758412800000,
               "open_price": 0.03267,
               "high_price": 0.032763,
-              "low_price": 0.032019,
-              "close_price": 0.0321,
-              "volume": 97302471.0,
+              "low_price": 0.031385,
+              "close_price": 0.031732,
+              "volume": 194947929.0,
               "close_time": 1758416399999,
-              "quote_volume": 3139562.956764,
-              "trades_count": 22855
+              "quote_volume": 6253646.464824,
+              "trades_count": 46276
             }
           ]
         },
@@ -24253,12 +24264,12 @@
               "open_time": 1758412800000,
               "open_price": 0.03267,
               "high_price": 0.032763,
-              "low_price": 0.032019,
-              "close_price": 0.032079,
-              "volume": 97195987.0,
+              "low_price": 0.031385,
+              "close_price": 0.031732,
+              "volume": 194947929.0,
               "close_time": 1758427199999,
-              "quote_volume": 3136145.698339,
-              "trades_count": 22809
+              "quote_volume": 6253646.464824,
+              "trades_count": 46276
             }
           ]
         }
@@ -24272,29 +24283,29 @@
         "symbol": "TWTUSDT",
         "base_asset": "TWT",
         "quote_asset": "USDT",
-        "price": 1.4387,
+        "price": 1.4157,
         "high_price": 1.537,
         "low_price": 1.1086,
         "volume_24h": {
-          "base_volume": 233506893.0,
-          "quote_volume": 302883079.2307,
-          "count": 3138222
+          "base_volume": 233155258.0,
+          "quote_volume": 302982168.5407,
+          "count": 3140151
         },
         "change_24h": {
-          "absolute": 0.3149,
-          "percentage": 28.021
+          "absolute": 0.2904,
+          "percentage": 25.774
         },
-        "open_price": 1.1238,
-        "prev_close_price": 1.1238,
-        "bid_price": 1.4385,
-        "ask_price": 1.4386,
-        "bid_qty": 119.0,
-        "ask_qty": 54.0,
-        "mark_price": 1.4385,
+        "open_price": 1.1267,
+        "prev_close_price": 1.1267,
+        "bid_price": 1.4173,
+        "ask_price": 1.4174,
+        "bid_qty": 1033.0,
+        "ask_qty": 264.0,
+        "mark_price": 1.4161169,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 3138222.0,
-        "timestamp": 1758413820900,
+        "open_interest": 3140151.0,
+        "timestamp": 1758414720171,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -24304,17 +24315,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.9291,
-              "high_price": 0.9313,
-              "low_price": 0.9243,
-              "close_price": 0.9267,
-              "volume": 260281.0,
-              "close_time": 1758235499999,
-              "quote_volume": 241414.273,
-              "trades_count": 3016
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.9267,
@@ -26496,13 +26496,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 1.4368,
-              "high_price": 1.4402,
-              "low_price": 1.4344,
-              "close_price": 1.4375,
-              "volume": 83750.0,
+              "high_price": 1.4504,
+              "low_price": 1.4144,
+              "close_price": 1.4184,
+              "volume": 1260673.0,
               "close_time": 1758414599999,
-              "quote_volume": 120350.5735,
-              "trades_count": 1804
+              "quote_volume": 1804035.3412,
+              "trades_count": 21271
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 1.4182,
+              "high_price": 1.4201,
+              "low_price": 1.4038,
+              "close_price": 1.4173,
+              "volume": 496236.0,
+              "close_time": 1758415499999,
+              "quote_volume": 700316.9217,
+              "trades_count": 6066
             }
           ]
         },
@@ -28702,13 +28713,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 1.4398,
-              "high_price": 1.4424,
-              "low_price": 1.4196,
-              "close_price": 1.4388,
-              "volume": 1323031.0,
+              "high_price": 1.4504,
+              "low_price": 1.4038,
+              "close_price": 1.4193,
+              "volume": 3023867.0,
               "close_time": 1758416399999,
-              "quote_volume": 1895948.1032,
-              "trades_count": 21620
+              "quote_volume": 4319249.9771,
+              "trades_count": 47488
             }
           ]
         },
@@ -30908,13 +30919,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 1.4398,
-              "high_price": 1.4424,
-              "low_price": 1.4196,
-              "close_price": 1.4375,
-              "volume": 1323974.0,
+              "high_price": 1.4504,
+              "low_price": 1.4038,
+              "close_price": 1.4186,
+              "volume": 3002231.0,
               "close_time": 1758427199999,
-              "quote_volume": 1897304.2569,
-              "trades_count": 21664
+              "quote_volume": 4288535.0423,
+              "trades_count": 47274
             }
           ]
         }
@@ -30928,29 +30939,29 @@
         "symbol": "AIAUSDT",
         "base_asset": "AIA",
         "quote_asset": "USDT",
-        "price": 0.47959,
+        "price": 0.48228,
         "high_price": 0.55126,
         "low_price": 0.3725,
         "volume_24h": {
-          "base_volume": 473212998.0,
-          "quote_volume": 211332393.17633,
-          "count": 3261734
+          "base_volume": 473950023.0,
+          "quote_volume": 211884294.4222,
+          "count": 3263259
         },
         "change_24h": {
-          "absolute": 0.09498,
-          "percentage": 24.696
+          "absolute": 0.09614,
+          "percentage": 24.898
         },
-        "open_price": 0.3846,
-        "prev_close_price": 0.3846,
-        "bid_price": 0.4799,
-        "ask_price": 0.4802,
-        "bid_qty": 150.0,
-        "ask_qty": 164.0,
-        "mark_price": 0.4798,
-        "funding_rate": 0.00286751,
+        "open_price": 0.38614,
+        "prev_close_price": 0.38614,
+        "bid_price": 0.479,
+        "ask_price": 0.47905,
+        "bid_qty": 43.0,
+        "ask_qty": 335.0,
+        "mark_price": 0.48242204,
+        "funding_rate": 0.00263235,
         "next_funding_time": 1758427200000,
-        "open_interest": 3261734.0,
-        "timestamp": 1758413820897,
+        "open_interest": 3263259.0,
+        "timestamp": 1758414720172,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -30960,17 +30971,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.39179,
-              "high_price": 0.39679,
-              "low_price": 0.38498,
-              "close_price": 0.39256,
-              "volume": 4762020.0,
-              "close_time": 1758235499999,
-              "quote_volume": 1864653.03342,
-              "trades_count": 31701
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.39254,
@@ -33152,13 +33152,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.48339,
-              "high_price": 0.48385,
-              "low_price": 0.47914,
-              "close_price": 0.48039,
-              "volume": 489578.0,
+              "high_price": 0.48734,
+              "low_price": 0.47463,
+              "close_price": 0.48685,
+              "volume": 2802872.0,
               "close_time": 1758414599999,
-              "quote_volume": 235683.35357,
-              "trades_count": 3232
+              "quote_volume": 1346357.78662,
+              "trades_count": 20192
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.4866,
+              "high_price": 0.48801,
+              "low_price": 0.47286,
+              "close_price": 0.47727,
+              "volume": 879247.0,
+              "close_time": 1758415499999,
+              "quote_volume": 424323.95993,
+              "trades_count": 6385
             }
           ]
         },
@@ -33873,13 +33884,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.46343,
-              "high_price": 0.48581,
+              "high_price": 0.48801,
               "low_price": 0.45933,
-              "close_price": 0.47957,
-              "volume": 5118939.0,
+              "close_price": 0.48167,
+              "volume": 7978476.0,
               "close_time": 1758416399999,
-              "quote_volume": 2428218.78814,
-              "trades_count": 35448
+              "quote_volume": 3804256.51025,
+              "trades_count": 56138
             }
           ]
         },
@@ -34066,13 +34077,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.46343,
-              "high_price": 0.48581,
+              "high_price": 0.48801,
               "low_price": 0.45933,
-              "close_price": 0.48039,
-              "volume": 5131514.0,
+              "close_price": 0.47727,
+              "volume": 8324055.0,
               "close_time": 1758427199999,
-              "quote_volume": 2434258.09207,
-              "trades_count": 35564
+              "quote_volume": 3969256.48505,
+              "trades_count": 58909
             }
           ]
         }
@@ -34086,29 +34097,29 @@
         "symbol": "BROCCOLI714USDT",
         "base_asset": "BROCCOLI714",
         "quote_asset": "USDT",
-        "price": 0.04314,
+        "price": 0.04271,
         "high_price": 0.04629,
         "low_price": 0.0341,
         "volume_24h": {
-          "base_volume": 2940386282.0,
-          "quote_volume": 118063662.01654,
-          "count": 1223179
+          "base_volume": 2951165943.0,
+          "quote_volume": 118563876.43803,
+          "count": 1229058
         },
         "change_24h": {
-          "absolute": 0.00848,
-          "percentage": 24.495
+          "absolute": 0.00811,
+          "percentage": 23.405
         },
-        "open_price": 0.03462,
-        "prev_close_price": 0.03462,
-        "bid_price": 0.04309,
-        "ask_price": 0.04311,
-        "bid_qty": 7556.0,
-        "ask_qty": 5082.0,
-        "mark_price": 0.04311666,
+        "open_price": 0.03465,
+        "prev_close_price": 0.03465,
+        "bid_price": 0.04276,
+        "ask_price": 0.04278,
+        "bid_qty": 10054.0,
+        "ask_qty": 5138.0,
+        "mark_price": 0.04267452,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 1223179.0,
-        "timestamp": 1758413820897,
+        "open_interest": 1229058.0,
+        "timestamp": 1758414720170,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -34118,17 +34129,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.03449,
-              "high_price": 0.03458,
-              "low_price": 0.03436,
-              "close_price": 0.03436,
-              "volume": 2839891.0,
-              "close_time": 1758235499999,
-              "quote_volume": 97956.99192,
-              "trades_count": 1286
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.03435,
@@ -36310,13 +36310,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.04286,
-              "high_price": 0.04316,
-              "low_price": 0.04282,
-              "close_price": 0.04311,
-              "volume": 1845173.0,
+              "high_price": 0.04347,
+              "low_price": 0.04259,
+              "close_price": 0.04274,
+              "volume": 13863971.0,
               "close_time": 1758414599999,
-              "quote_volume": 79273.39819,
-              "trades_count": 1146
+              "quote_volume": 595900.32622,
+              "trades_count": 7964
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.04272,
+              "high_price": 0.04303,
+              "low_price": 0.04264,
+              "close_price": 0.04273,
+              "volume": 3057038.0,
+              "close_time": 1758415499999,
+              "quote_volume": 130989.66466,
+              "trades_count": 1247
             }
           ]
         },
@@ -38516,13 +38527,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.04262,
-              "high_price": 0.04316,
+              "high_price": 0.04347,
               "low_price": 0.0416,
-              "close_price": 0.04311,
-              "volume": 21586493.0,
+              "close_price": 0.04279,
+              "volume": 36492408.0,
               "close_time": 1758416399999,
-              "quote_volume": 913749.0854,
-              "trades_count": 10338
+              "quote_volume": 1554100.55434,
+              "trades_count": 18339
             }
           ]
         },
@@ -40722,13 +40733,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.04262,
-              "high_price": 0.04316,
+              "high_price": 0.04347,
               "low_price": 0.0416,
-              "close_price": 0.04311,
-              "volume": 21551404.0,
+              "close_price": 0.04273,
+              "volume": 36662329.0,
               "close_time": 1758427199999,
-              "quote_volume": 912237.08847,
-              "trades_count": 10312
+              "quote_volume": 1561365.67809,
+              "trades_count": 18403
             }
           ]
         }
@@ -40742,29 +40753,29 @@
         "symbol": "THEUSDT",
         "base_asset": "THE",
         "quote_asset": "USDT",
-        "price": 0.4572,
-        "high_price": 0.4612,
+        "price": 0.4577,
+        "high_price": 0.4667,
         "low_price": 0.368,
         "volume_24h": {
-          "base_volume": 76102994.4,
-          "quote_volume": 31638690.9672,
-          "count": 381158
+          "base_volume": 78472437.5,
+          "quote_volume": 32740482.87297,
+          "count": 394032
         },
         "change_24h": {
-          "absolute": 0.083,
-          "percentage": 22.175
+          "absolute": 0.0859,
+          "percentage": 23.085
         },
-        "open_price": 0.3743,
-        "prev_close_price": 0.3743,
+        "open_price": 0.3721,
+        "prev_close_price": 0.3721,
         "bid_price": 0.458,
-        "ask_price": 0.4583,
-        "bid_qty": 266.5,
-        "ask_qty": 198.1,
-        "mark_price": 0.45730395,
+        "ask_price": 0.4581,
+        "bid_qty": 684.0,
+        "ask_qty": 85.0,
+        "mark_price": 0.458,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 381158.0,
-        "timestamp": 1758413820895,
+        "open_interest": 394032.0,
+        "timestamp": 1758414720171,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -40774,17 +40785,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.4033,
-              "high_price": 0.4043,
-              "low_price": 0.402,
-              "close_price": 0.4021,
-              "volume": 115431.9,
-              "close_time": 1758235499999,
-              "quote_volume": 46591.81554,
-              "trades_count": 855
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.4021,
@@ -42966,13 +42966,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.452,
-              "high_price": 0.4591,
+              "high_price": 0.4667,
               "low_price": 0.452,
-              "close_price": 0.458,
-              "volume": 254250.4,
+              "close_price": 0.4599,
+              "volume": 2472819.4,
               "close_time": 1758414599999,
-              "quote_volume": 115963.84617,
-              "trades_count": 1600
+              "quote_volume": 1140772.6241,
+              "trades_count": 13459
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.46,
+              "high_price": 0.4612,
+              "low_price": 0.4558,
+              "close_price": 0.458,
+              "volume": 242079.1,
+              "close_time": 1758415499999,
+              "quote_volume": 110848.71286,
+              "trades_count": 1554
             }
           ]
         },
@@ -45172,13 +45183,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.4573,
-              "high_price": 0.4612,
+              "high_price": 0.4667,
               "low_price": 0.4465,
-              "close_price": 0.4593,
-              "volume": 2845852.1,
+              "close_price": 0.4606,
+              "volume": 5315183.9,
               "close_time": 1758416399999,
-              "quote_volume": 1290049.80441,
-              "trades_count": 14719
+              "quote_volume": 2429693.80915,
+              "trades_count": 28217
             }
           ]
         },
@@ -47378,13 +47389,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.4573,
-              "high_price": 0.4612,
+              "high_price": 0.4667,
               "low_price": 0.4465,
-              "close_price": 0.4591,
-              "volume": 2847083.4,
+              "close_price": 0.4605,
+              "volume": 5315029.6,
               "close_time": 1758427199999,
-              "quote_volume": 1290615.36287,
-              "trades_count": 14731
+              "quote_volume": 2429622.75237,
+              "trades_count": 28212
             }
           ]
         }
@@ -47398,29 +47409,29 @@
         "symbol": "XPLUSDT",
         "base_asset": "XPL",
         "quote_asset": "USDT",
-        "price": 0.7729,
+        "price": 0.7694,
         "high_price": 0.7872,
-        "low_price": 0.6396,
+        "low_price": 0.6408,
         "volume_24h": {
-          "base_volume": 160217095.0,
-          "quote_volume": 114513598.999,
-          "count": 765536
+          "base_volume": 162333654.0,
+          "quote_volume": 116238546.8424,
+          "count": 775745
         },
         "change_24h": {
-          "absolute": 0.1329,
-          "percentage": 20.766
+          "absolute": 0.1276,
+          "percentage": 19.882
         },
-        "open_price": 0.64,
-        "prev_close_price": 0.64,
-        "bid_price": 0.7728,
-        "ask_price": 0.773,
-        "bid_qty": 39.0,
-        "ask_qty": 319.0,
-        "mark_price": 0.773144,
+        "open_price": 0.6418,
+        "prev_close_price": 0.6418,
+        "bid_price": 0.7684,
+        "ask_price": 0.7688,
+        "bid_qty": 451.0,
+        "ask_qty": 683.0,
+        "mark_price": 0.770292,
         "funding_rate": 5e-05,
         "next_funding_time": 1758427200000,
-        "open_interest": 765536.0,
-        "timestamp": 1758413820896,
+        "open_interest": 775745.0,
+        "timestamp": 1758414720171,
         "market_cap": null,
         "circulating_supply": null,
         "market_cap_rank": null
@@ -47430,17 +47441,6 @@
           "interval": "15m",
           "count": 200,
           "data": [
-            {
-              "open_time": 1758234600000,
-              "open_price": 0.6516,
-              "high_price": 0.6561,
-              "low_price": 0.6511,
-              "close_price": 0.6519,
-              "volume": 540857.0,
-              "close_time": 1758235499999,
-              "quote_volume": 353370.0455,
-              "trades_count": 2268
-            },
             {
               "open_time": 1758235500000,
               "open_price": 0.6516,
@@ -49622,13 +49622,24 @@
             {
               "open_time": 1758413700000,
               "open_price": 0.775,
-              "high_price": 0.775,
-              "low_price": 0.7719,
-              "close_price": 0.7729,
-              "volume": 155239.0,
+              "high_price": 0.7864,
+              "low_price": 0.7692,
+              "close_price": 0.7735,
+              "volume": 2121795.0,
               "close_time": 1758414599999,
-              "quote_volume": 120017.2461,
-              "trades_count": 765
+              "quote_volume": 1649746.1938,
+              "trades_count": 10540
+            },
+            {
+              "open_time": 1758414600000,
+              "open_price": 0.7734,
+              "high_price": 0.7742,
+              "low_price": 0.7654,
+              "close_price": 0.7683,
+              "volume": 780698.0,
+              "close_time": 1758415499999,
+              "quote_volume": 601053.8089,
+              "trades_count": 3030
             }
           ]
         },
@@ -51828,13 +51839,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.7756,
-              "high_price": 0.7818,
-              "low_price": 0.7705,
-              "close_price": 0.7745,
-              "volume": 1607746.0,
+              "high_price": 0.7864,
+              "low_price": 0.7654,
+              "close_price": 0.769,
+              "volume": 4352338.0,
               "close_time": 1758416399999,
-              "quote_volume": 1247649.9695,
-              "trades_count": 10201
+              "quote_volume": 3376283.4271,
+              "trades_count": 23023
             }
           ]
         },
@@ -53803,13 +53814,13 @@
             {
               "open_time": 1758412800000,
               "open_price": 0.7756,
-              "high_price": 0.7818,
-              "low_price": 0.7705,
-              "close_price": 0.7745,
-              "volume": 1607746.0,
+              "high_price": 0.7864,
+              "low_price": 0.7654,
+              "close_price": 0.7683,
+              "volume": 4334405.0,
               "close_time": 1758427199999,
-              "quote_volume": 1247649.9695,
-              "trades_count": 10201
+              "quote_volume": 3362500.5451,
+              "trades_count": 22940
             }
           ]
         }
