@@ -1,12 +1,14 @@
 {
   "version": "1.0",
-  "last_updated": "2025-09-24T17:06:37+08:00",
+  "last_updated": "2025-09-24T17:23:59+08:00",
   "base_url": "https://raw.githubusercontent.com/samuel25555/binance-data/main",
   "data_structure": {
     "intervals": [
       "15m",
       "1h",
-      "4h"
+      "4h",
+      "1d",
+      "1w"
     ],
     "klines_per_interval": 200,
     "total_symbols": 120,
@@ -14,98 +16,56 @@
   },
   "files": {
     "gainers": {
-      "description": "涨幅榜数据，分6个档次，每档10个币种",
+      "description": "涨幅榜数据，分3个档次，每档20个币种",
       "total_symbols": 60,
       "partitions": [
         {
-          "rank_range": "1-10",
-          "file": "gainers-top1-10-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top1-10-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
+          "rank_range": "1-20",
+          "file": "gainers-top1-20-with-klines-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top1-20-with-klines-x200each.json",
+          "size_estimate": "~5MB",
+          "symbols_count": 20
         },
         {
-          "rank_range": "11-20",
-          "file": "gainers-top11-20-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top11-20-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
+          "rank_range": "21-40",
+          "file": "gainers-top21-40-with-klines-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top21-40-with-klines-x200each.json",
+          "size_estimate": "~5MB",
+          "symbols_count": 20
         },
         {
-          "rank_range": "21-30",
-          "file": "gainers-top21-30-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top21-30-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
-        },
-        {
-          "rank_range": "31-40",
-          "file": "gainers-top31-40-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top31-40-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
-        },
-        {
-          "rank_range": "41-50",
-          "file": "gainers-top41-50-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top41-50-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
-        },
-        {
-          "rank_range": "51-60",
-          "file": "gainers-top51-60-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top51-60-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
+          "rank_range": "41-60",
+          "file": "gainers-top41-60-with-klines-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/gainers-top41-60-with-klines-x200each.json",
+          "size_estimate": "~5MB",
+          "symbols_count": 20
         }
       ]
     },
     "losers": {
-      "description": "跌幅榜数据，分6个档次，每档10个币种",
+      "description": "跌幅榜数据，分3个档次，每档20个币种",
       "total_symbols": 60,
       "partitions": [
         {
-          "rank_range": "1-10",
-          "file": "losers-top1-10-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top1-10-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
+          "rank_range": "1-20",
+          "file": "losers-top1-20-with-klines-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top1-20-with-klines-x200each.json",
+          "size_estimate": "~5MB",
+          "symbols_count": 20
         },
         {
-          "rank_range": "11-20",
-          "file": "losers-top11-20-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top11-20-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
+          "rank_range": "21-40",
+          "file": "losers-top21-40-with-klines-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top21-40-with-klines-x200each.json",
+          "size_estimate": "~5MB",
+          "symbols_count": 20
         },
         {
-          "rank_range": "21-30",
-          "file": "losers-top21-30-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top21-30-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
-        },
-        {
-          "rank_range": "31-40",
-          "file": "losers-top31-40-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top31-40-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
-        },
-        {
-          "rank_range": "41-50",
-          "file": "losers-top41-50-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top41-50-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
-        },
-        {
-          "rank_range": "51-60",
-          "file": "losers-top51-60-with-klines-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top51-60-with-klines-x200each.json",
-          "size_estimate": "~2.5MB",
-          "symbols_count": 10
+          "rank_range": "41-60",
+          "file": "losers-top41-60-with-klines-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/losers-top41-60-with-klines-x200each.json",
+          "size_estimate": "~5MB",
+          "symbols_count": 20
         }
       ]
     },
@@ -122,15 +82,15 @@
       "files": [
         {
           "symbol": "BTCUSDT",
-          "file": "btc-15m-1h-4h-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/btc-15m-1h-4h-x200each.json",
-          "size_estimate": "~500KB"
+          "file": "btc-15m-1h-4h-1d-1w-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/btc-15m-1h-4h-1d-1w-x200each.json",
+          "size_estimate": "~800KB"
         },
         {
           "symbol": "ETHUSDT",
-          "file": "eth-15m-1h-4h-x200each.json",
-          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/eth-15m-1h-4h-x200each.json",
-          "size_estimate": "~500KB"
+          "file": "eth-15m-1h-4h-1d-1w-x200each.json",
+          "url": "https://raw.githubusercontent.com/samuel25555/binance-data/main/eth-15m-1h-4h-1d-1w-x200each.json",
+          "size_estimate": "~800KB"
         }
       ]
     }
