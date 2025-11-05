@@ -2,7 +2,7 @@
   "metadata": {
     "type": "btc_klines",
     "symbol": "BTCUSDT",
-    "generated_at": "2025-11-05T01:08:42.540620",
+    "generated_at": "2025-11-05T01:23:41.610081",
     "source": "Binance Futures API",
     "description": "BTC K线数据 - 15m/1h/4h/1d/1w，每个周期200根",
     "intervals": [
@@ -19,17 +19,6 @@
       "interval": "15m",
       "count": 200,
       "data": [
-        {
-          "open_time": 1762125300000,
-          "open_price": 110415.3,
-          "high_price": 110450.0,
-          "low_price": 110089.9,
-          "close_price": 110133.2,
-          "volume": 699.37,
-          "close_time": 1762126199999,
-          "quote_volume": 77074416.1946,
-          "trades_count": 32202
-        },
         {
           "open_time": 1762126200000,
           "open_price": 110133.1,
@@ -2212,12 +2201,23 @@
           "open_time": 1762304400000,
           "open_price": 100523.0,
           "high_price": 100599.0,
-          "low_price": 100018.0,
-          "close_price": 100021.2,
-          "volume": 997.82,
+          "low_price": 100000.0,
+          "close_price": 100333.0,
+          "volume": 2124.017,
           "close_time": 1762305299999,
-          "quote_volume": 99998167.2391,
-          "trades_count": 46410
+          "quote_volume": 212799239.0095,
+          "trades_count": 84357
+        },
+        {
+          "open_time": 1762305300000,
+          "open_price": 100333.0,
+          "high_price": 100339.9,
+          "low_price": 99299.0,
+          "close_price": 99338.1,
+          "volume": 2900.044,
+          "close_time": 1762306199999,
+          "quote_volume": 289181614.7197,
+          "trades_count": 84679
         }
       ]
     },
@@ -4418,12 +4418,12 @@
           "open_time": 1762304400000,
           "open_price": 100523.0,
           "high_price": 100599.0,
-          "low_price": 100018.0,
-          "close_price": 100023.1,
-          "volume": 997.338,
+          "low_price": 99299.0,
+          "close_price": 99351.7,
+          "volume": 5022.436,
           "close_time": 1762307999999,
-          "quote_volume": 99949956.1795,
-          "trades_count": 46364
+          "quote_volume": 501819412.787,
+          "trades_count": 168882
         }
       ]
     },
@@ -6624,12 +6624,12 @@
           "open_time": 1762300800000,
           "open_price": 101450.2,
           "high_price": 101700.0,
-          "low_price": 100018.0,
-          "close_price": 100055.3,
-          "volume": 9627.341,
+          "low_price": 99299.0,
+          "close_price": 99351.7,
+          "volume": 13655.24,
           "close_time": 1762315199999,
-          "quote_volume": 971219060.683,
-          "trades_count": 347150
+          "quote_volume": 1373368705.9023,
+          "trades_count": 469964
         }
       ]
     },
@@ -8830,12 +8830,12 @@
           "open_time": 1762300800000,
           "open_price": 101450.2,
           "high_price": 101700.0,
-          "low_price": 100018.0,
-          "close_price": 100021.2,
-          "volume": 9630.624,
+          "low_price": 99299.0,
+          "close_price": 99351.7,
+          "volume": 13655.24,
           "close_time": 1762387199999,
-          "quote_volume": 971547460.3544,
-          "trades_count": 347492
+          "quote_volume": 1373368705.9023,
+          "trades_count": 469964
         }
       ]
     },
@@ -11037,11 +11037,11 @@
           "open_price": 110494.9,
           "high_price": 110711.0,
           "low_price": 98888.8,
-          "close_price": 100021.2,
-          "volume": 465630.831,
+          "close_price": 99338.1,
+          "volume": 469657.072,
           "close_time": 1762732799999,
-          "quote_volume": 48634603595.315,
-          "trades_count": 14725083
+          "quote_volume": 49036586281.8051,
+          "trades_count": 14847709
         }
       ]
     }
