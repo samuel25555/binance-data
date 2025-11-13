@@ -2,7 +2,7 @@
   "metadata": {
     "type": "btc_klines",
     "symbol": "BTCUSDT",
-    "generated_at": "2025-11-13T19:38:41.173930",
+    "generated_at": "2025-11-13T20:07:43.406387",
     "source": "Binance Futures API",
     "description": "BTC K线数据 - 15m/1h/4h/1d/1w，每个周期200根",
     "intervals": [
@@ -19,28 +19,6 @@
       "interval": "15m",
       "count": 200,
       "data": [
-        {
-          "open_time": 1762883100000,
-          "open_price": 102948.5,
-          "high_price": 103357.6,
-          "low_price": 102875.8,
-          "close_price": 103294.0,
-          "volume": 1400.18,
-          "close_time": 1762883999999,
-          "quote_volume": 144344049.1683,
-          "trades_count": 52085
-        },
-        {
-          "open_time": 1762884000000,
-          "open_price": 103294.0,
-          "high_price": 103525.1,
-          "low_price": 103102.3,
-          "close_price": 103200.1,
-          "volume": 1306.54,
-          "close_time": 1762884899999,
-          "quote_volume": 134994973.2349,
-          "trades_count": 49832
-        },
         {
           "open_time": 1762884900000,
           "open_price": 103200.1,
@@ -2213,11 +2191,33 @@
           "open_price": 99114.6,
           "high_price": 99183.5,
           "low_price": 98516.4,
-          "close_price": 98569.9,
-          "volume": 1796.208,
+          "close_price": 98873.6,
+          "volume": 2595.303,
           "close_time": 1763063099999,
-          "quote_volume": 177511041.0779,
-          "trades_count": 54894
+          "quote_volume": 256360293.3962,
+          "trades_count": 88356
+        },
+        {
+          "open_time": 1763063100000,
+          "open_price": 98873.6,
+          "high_price": 98934.9,
+          "low_price": 98320.0,
+          "close_price": 98643.1,
+          "volume": 3989.476,
+          "close_time": 1763063999999,
+          "quote_volume": 393698269.3639,
+          "trades_count": 106027
+        },
+        {
+          "open_time": 1763064000000,
+          "open_price": 98643.1,
+          "high_price": 98643.2,
+          "low_price": 98039.0,
+          "close_price": 98409.3,
+          "volume": 2428.042,
+          "close_time": 1763064899999,
+          "quote_volume": 238627896.5168,
+          "trades_count": 70605
         }
       ]
     },
@@ -2225,17 +2225,6 @@
       "interval": "1h",
       "count": 200,
       "data": [
-        {
-          "open_time": 1762344000000,
-          "open_price": 102019.3,
-          "high_price": 102853.2,
-          "low_price": 101867.8,
-          "close_price": 102622.7,
-          "volume": 9346.671,
-          "close_time": 1762347599999,
-          "quote_volume": 957174381.4089,
-          "trades_count": 270106
-        },
         {
           "open_time": 1762347600000,
           "open_price": 102622.6,
@@ -4419,11 +4408,22 @@
           "open_price": 98539.6,
           "high_price": 99256.6,
           "low_price": 98209.7,
-          "close_price": 98548.5,
-          "volume": 10393.362,
+          "close_price": 98643.1,
+          "volume": 15188.386,
           "close_time": 1763063999999,
-          "quote_volume": 1026111069.7206,
-          "trades_count": 314355
+          "quote_volume": 1499294627.3144,
+          "trades_count": 454170
+        },
+        {
+          "open_time": 1763064000000,
+          "open_price": 98643.1,
+          "high_price": 98643.2,
+          "low_price": 98039.0,
+          "close_price": 98402.1,
+          "volume": 2422.927,
+          "close_time": 1763067599999,
+          "quote_volume": 238124536.9296,
+          "trades_count": 70481
         }
       ]
     },
@@ -4431,17 +4431,6 @@
       "interval": "4h",
       "count": 200,
       "data": [
-        {
-          "open_time": 1760184000000,
-          "open_price": 112224.6,
-          "high_price": 112466.2,
-          "low_price": 111740.8,
-          "close_price": 111744.4,
-          "volume": 16698.898,
-          "close_time": 1760198399999,
-          "quote_volume": 1872113035.0344,
-          "trades_count": 457303
-        },
         {
           "open_time": 1760198400000,
           "open_price": 111744.4,
@@ -6625,11 +6614,22 @@
           "open_price": 101338.0,
           "high_price": 101495.7,
           "low_price": 98100.0,
-          "close_price": 98548.5,
-          "volume": 70223.412,
+          "close_price": 98643.1,
+          "volume": 75018.436,
           "close_time": 1763063999999,
-          "quote_volume": 6996383826.784,
-          "trades_count": 1895013
+          "quote_volume": 7469567384.3778,
+          "trades_count": 2034828
+        },
+        {
+          "open_time": 1763064000000,
+          "open_price": 98643.1,
+          "high_price": 98643.2,
+          "low_price": 98039.0,
+          "close_price": 98402.1,
+          "volume": 2422.927,
+          "close_time": 1763078399999,
+          "quote_volume": 238124536.9296,
+          "trades_count": 70481
         }
       ]
     },
@@ -8830,12 +8830,12 @@
           "open_time": 1762992000000,
           "open_price": 101605.8,
           "high_price": 104024.6,
-          "low_price": 98100.0,
-          "close_price": 98548.5,
-          "volume": 190833.884,
+          "low_price": 98039.0,
+          "close_price": 98402.1,
+          "volume": 198051.835,
           "close_time": 1763078399999,
-          "quote_volume": 19370531613.612,
-          "trades_count": 5959707
+          "quote_volume": 20081839708.1354,
+          "trades_count": 6170003
         }
       ]
     },
@@ -11036,12 +11036,12 @@
           "open_time": 1762732800000,
           "open_price": 104670.7,
           "high_price": 107473.7,
-          "low_price": 98100.0,
-          "close_price": 98548.5,
-          "volume": 584717.472,
+          "low_price": 98039.0,
+          "close_price": 98397.5,
+          "volume": 591931.246,
           "close_time": 1763337599999,
-          "quote_volume": 60501737926.9437,
-          "trades_count": 19636074
+          "quote_volume": 61212635013.5284,
+          "trades_count": 19846277
         }
       ]
     }
